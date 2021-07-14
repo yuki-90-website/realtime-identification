@@ -1,0 +1,31 @@
+body {
+    background-image: url("background.jpg");
+}
+h3 {
+    font-size: 22px !important;
+}
+.btn-success {
+    transition-duration: 0.8s;
+}
+#btn:hover {
+    background-color: red;
+}
+canvas {
+    animation-name: unknown123;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes unknown123 {
+    25% {
+        box-shadow: 1px 1px 38px blue;
+    }
+    50% {
+        box-shadow: 1px 1px 38px yellow;
+    }
+    75% {
+        box-shadow: 1px 1px 38px green;
+    }
+    100% {
+        box-shadow: 1px 1px 38px blue;
+    }
+}
